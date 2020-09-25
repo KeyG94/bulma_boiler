@@ -1,0 +1,27 @@
+// changed this so that its a div inside the app file
+.background-image{
+    background-image: url('../../src/images/Image_1.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media screen and (max-width: $tablet){
+        background-image: none;
+    }
+
+}
+
+//buttons, submit
+.button.is-info {
+    background-color: $primary;
+}
+
+// footer
+.footer{
+    background-color: $primary;
+
+    &p{
+        color: $font-primary-color;
+    }
+}
+
