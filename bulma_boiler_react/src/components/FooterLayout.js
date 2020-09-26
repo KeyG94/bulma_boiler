@@ -3,7 +3,7 @@ import Footer from '../elements/Footer';
 
 function FooterLayout() {
     return (
-        <footer className="footer py-2">
+        <footer className="footer py-4">
             <Footer />
         </footer>
     )

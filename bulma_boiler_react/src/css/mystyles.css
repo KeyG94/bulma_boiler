@@ -10955,6 +10955,17 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 h1 {
   font-family: "Open Sans", sans-serif !important; }
 
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between; }
+
 .background-image {
   background-image: url("../../src/images/Image_1.png");
   background-position: right;

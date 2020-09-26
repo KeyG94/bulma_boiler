@@ -1,3 +1,15 @@
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 // changed this so that its a div inside the app file
 .background-image{
     background-image: url('../../src/images/Image_1.png');
@@ -19,6 +31,7 @@
 // footer
 .footer{
     background-color: $primary;
+
 
     &p{
         color: $font-primary-color;

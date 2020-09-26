@@ -3,7 +3,7 @@ import Card from '../elements/Card';
 
 function CardLayout() {
     return (
-    <section className="content-cards py-4 px-4">
+    <section className="content-cards pb-6 px-6">
         <div className="container">
             <div className="columns is-multiline is-centered">
                 {[1, 2, 3, 4, 5, 6].map(() => (
