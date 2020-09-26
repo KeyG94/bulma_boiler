@@ -10949,7 +10949,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .active {
   background-color: #209CEE !important; }
 
-.hero-body {
+.hero-body, .content-cards {
   background-color: #B4C6F0; }
 
 h1 {
